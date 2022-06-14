@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const bird = document.querySelector(".bird");
     const gameDisplay = document.querySelector(".game-container");
-    const ground = document.querySelector(".ground");
+    const ground = document.querySelector(".ground-moving");
 
     let birdLeft = 220;
     let birdBottom = 100;
@@ -82,6 +82,5 @@ document.addEventListener("DOMContentLoaded", () => {
         ground.classList.add("ground-moving");
         ground.classList.remove("ground");
     }
-
-
 })
+console.log("Welcome to my Glappy Bird Game, using the spacebar to move ")
